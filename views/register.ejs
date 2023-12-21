@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet"  type="text/css" href="main.css" />
+  </head>
+  <body>
+    <h1>Register for <%=appName%></h1>
+    <form method="POST" action="/registered">
+        <p>firstname: <input id="firstname" type="text" name="firstname" value="firstname" /></p>
+        <p>lastname: <input id="surname" type="text" name="surname" value="surname" /></p>
+        <p>Email: <input id="email" type="email" name="email" value="email" /></p>
+        <p>Username: <input id ="username" type="username" name="username" value="username" /></p>
+        <p>Password: <input id="password" type="password" name="password" minlength= "8" required  value= "password" /></p>
+        <input type="submit" value="Register" />
+      </form>
+  </body>
+</html>
